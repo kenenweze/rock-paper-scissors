@@ -1,0 +1,1 @@
+This a TOP project with the objective of creating a rock-paper-scissors game that will be played in the console.
