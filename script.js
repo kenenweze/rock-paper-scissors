@@ -59,7 +59,7 @@ function playRound(humanChoice, computerChoice) {
         rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
-        showWinStatement.textContent = "YOU WON!!!";
+        showWinStatement.textContent = "YOU WON THE GAME!!!";
         showWinStatement.style.color = "green";
     } else if (computerScore === 5) {
         rockButton.disabled = true;
