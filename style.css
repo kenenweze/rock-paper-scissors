@@ -1,0 +1,58 @@
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: darkseagreen;
+}
+
+button {
+    background-color: rgb(45, 45, 218);
+    padding: 20px 50px;
+    color: rgb(204, 225, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+button:disabled {
+    background-color: rgb(146, 146, 235);
+}
+
+.show-result {
+    background-color: rgb(53, 53, 223);
+    margin: 20px;
+}
+
+#human-score,
+#computer-score {
+    margin: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.announce,
+.statement {
+    margin: 20px;
+    text-align: center;
+}
+
+#winner,
+#win-statement {
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
